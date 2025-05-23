@@ -1,0 +1,7 @@
+
+{
+    "welcome": "Bem-vindo ao meu site!",
+    "description": "Este é um projeto com React, TypeScript e i18n.",
+    "greeting": "Olá, {{name}}!"
+  }
+  
