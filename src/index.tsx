@@ -4,12 +4,14 @@ import './styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './i18n/i18n.ts';
+import Header from './components/header/header';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <Header />
     <App />
   </React.StrictMode>
 );
