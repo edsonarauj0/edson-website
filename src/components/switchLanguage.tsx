@@ -1,15 +1,15 @@
 import { DropdownMenu } from '@radix-ui/react-dropdown-menu'
 import React from 'react'
 
-function switchLanguage() {
+function SwitchLanguage() {
     return (
-        <>
+        <div>
             <DropdownMenu >
 
 
             </DropdownMenu>
-        </>
+        </div>
     )
 }
 
-export default switchLanguage
+export default SwitchLanguage
