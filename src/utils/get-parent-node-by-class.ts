@@ -10,7 +10,7 @@ export const getParentNodeByClass = (
     return target;
   }
   if (target.parentNode) {
-    return getParentNodeByClass(target.parentNode as HTMLElement, className, i++);
+    return getParentNodeByClass(target.parentNode as HTMLElement, className, i + 1);
   }
   return null;
 };
@@ -27,7 +27,7 @@ export const getParentNodeByTag = (
     return target;
   }
   if (target.parentNode) {
-    return getParentNodeByTag(target.parentNode as HTMLElement, tagName, i++);
+    return getParentNodeByTag(target.parentNode as HTMLElement, tagName, i + 1);
   }
   return null;
 };
