@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate, useParams, Outlet } f
 import i18n from './i18n/i18n';
 import Home from './pages/[locale]/home/home';
 import Header from './features/Header/header';
+import useBrowserLocale from './hooks/useBrowserLocale';
 
 const LocaleWrapper: React.FC = () => {
   const { locale } = useParams<{ locale: string }>();
@@ -21,22 +22,17 @@ const LocaleWrapper: React.FC = () => {
   );
 };
 
-const detectBrowserLanguage = (): string => {
-  const browserLanguage = localStorage.getItem('locale') || navigator.language || navigator.languages[0];
-  const supportedLanguages = ['pt', 'en', 'es', 'fr'];
-  const detectedLanguage = supportedLanguages.find((lang) => browserLanguage.startsWith(lang));
-  return detectedLanguage || 'en';
-};
 
 const NotFoundRedirect: React.FC = () => {
   const { locale } = useParams<{ locale: string }>();
-  const lang = locale || detectBrowserLanguage();
+  const browserLang = useBrowserLocale();
+  const lang = locale || browserLang;
   return <Navigate to={`/${lang}/home`} replace />;
 };
 
 
 const App: React.FC = () => {
-  const browserLanguage = detectBrowserLanguage();
+  const browserLanguage = useBrowserLocale();
 
   return (
     <Router>
