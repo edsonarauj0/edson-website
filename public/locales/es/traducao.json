@@ -1,5 +1,466 @@
 {
-    "welcome": "Welcome to my website!",
-    "description": "This is a project with React, TypeScript and i18n."
+  "Home": {
+    "title": "¡Hola mundo!",
+    "description": "Esta es una descripción graaande XD Si te gusta este tipo de contenido, por favor suscríbete a mi canal",
+    "client": "LADO DEL CLIENTE",
+    "prev": "anterior",
+    "next": "siguiente"
+  },
+
+  "Header": {
+    "Home": "Inicio",
+    "Sobre": "Acerca de",
+    "Projetos": "Proyectos",
+    "Currículo": "Currículum",
+    "Links": "Enlaces",
+    "ContactMe": "Contáctame",
+    "AltHome": "Inicio",
+    "AltAbout": "Más sobre mí",
+    "AltPortfolio": "Trabajos que he realizado",
+    "AltResume": "Mi currículum profesional",
+    "AltLinks": "Más información sobre mí",
+    "Curriculo": "Descargar currículum"
+  },
+  "Footer": {
+    "baseboard": "Edson Araújo, Todos los derechos reservados."
+  },
+  "SelectLanguage": {
+    "title": "Seleccione el Idioma",
+    "english": "Inglés",
+    "french": "Francés",
+    "portuguese": "Portugués",
+    "spanish": "Español",
+    "en": "Inglés",
+    "fr": "Francés",
+    "pt": "Portugués",
+    "es": "Español"
+  },
+
+  "Hero": {
+    "pre": "Bienvenido a mi sitio.",
+    "heading": "Soy <strong>Edson Araújo</strong>, desarrollador Full Stack.",
+    "tech": {
+      "Java": "Java",
+      "Spring": "Spring",
+      "TypeScript": "TypeScript",
+      "React": "React",
+      "Next": "Next"
+    },
+    "FollowLinkedin": "Sígueme en LinkedIn",
+    "body1": "Soy desarrollador Full Stack con experiencia en diversas tecnologías, incluyendo Java, Spring, React, TypeScript, JavaScript, SQL, AWS y pruebas unitarias con JUnit, Mockito y Jest. Me encanta escribir código que proporcione experiencias de usuario increíbles y haga que las personas se sientan ",
+    "body2": "Siempre estoy ansioso por aprender y explorar nuevas tecnologías, bibliotecas, frameworks, lenguajes de programación y nuevos enfoques de desarrollo. Actualmente, estoy aprendiendo sobre ",
+    "and": "y",
+    "cta1": {
+      "href": "mailto:edsonaraujo.dev@gmail.com",
+      "name": "Ponte en contacto"
+    },
+    "cta2": {
+      "href": "/curriculum",
+      "name": "Currículum"
+    },
+    "great": "¡GENIAL!",
+    "Badge": {
+      "Cinephile": "Cinéfilo",
+      "Geek": "Geek",
+      "Gym": "Entusiasta del Gimnasio",
+      "Technology": "Entusiasta de la Tecnología"
+    }
+  },
+  "InstagramInfo": {
+    "description": "Estudiando y compartiendo conocimientos; Desarrollo Web; Café, vida diaria y algunas otras cosas.",
+    "Following": "Siguiendo",
+    "Followers": "Seguidores",
+    "Follow": "Seguir"
+  },
+
+  "Toast": {
+    "copyCode": "Código copiado al portapapeles"
+  },
+
+  "About": {
+    "year": "Años",
+    "yearTooltip": "",
+    "experience": "Experiencia",
+    "experienceTooltip": "Primera línea de código en 2020",
+    "commits": "Commits",
+    "commitsTooltip": "30 GitHub Stars",
+    "unitSecond": " Segundos",
+    "description1": "Soy un Desarrollador Web en Santos, São Paulo - Brasil. Mi enfoque durante años ha sido el desarrollo Full Stack",
+    "description2": "con",
+    "description3": "y",
+    "description4": "Pero actualmente trabajo en proyectos con",
+    "description5": "para crear experiencias de usuario únicas.",
+    "description6": "He pasado la mayor parte de mi vida profundamente interesado en la tecnología y la comida, construyendo continuamente cosas con ambos. En mi adolescencia, era un típico nerd de computadoras, pasando la mayor parte del tiempo trasteando con la computadora, modificando juegos y descubriendo cosas. Trasteando con hardware, ensamblando computadoras. Desarrollando sitios web con Wordpress. Y por supuesto, jugando videojuegos.",
+    "description7": "La mayor parte de eso sigue siendo cierto hoy en día.",
+    "images": {
+      "me": "Photo pour les réseaux sociaux",
+      "festaJunina": "Profiter d'une bonne Festa Junina",
+      "bar": "Profiter d'un bon restaurant",
+      "wedding": "Mariage des amis",
+      "smile": "Photo rare de moi souriant"
+    },
+    "timeline": {
+      "2002": {
+        "birth": {
+          "heading": "Nacimiento",
+          "description": "En Guarujá, São Paulo, nací yo."
+        }
+      },
+      "2007": {
+        "games": {
+          "heading": "Juegos",
+          "description": "Mis hermanos y yo recibimos una Nintendo Super NES, comenzó mi vida en los juegos, y Super Mario sigue siendo mi favorito."
+        },
+        "school": {
+          "heading": "Escuelita",
+          "description": "Ese año comencé mi vida académica, mi primer año en una escuela pública."
+        }
+      },
+      "2009": {
+        "newGames": {
+          "heading": "Nuevos juegos",
+          "description": "Ese año recibí una actualización en los juegos y recibí una Sega Mega Drive como regalo."
+        }
+      },
+      "2010": {
+        "firstComputerContact": {
+          "heading": "Primer contacto con la computadora",
+          "description": "Mi hermano recibió una computadora, y tuve mi primer contacto con ella. Por supuesto, fue amor a primera vista."
+        }
+      },
+      "2011": {
+        "computerGames": {
+          "heading": "Juegos ahora en la computadora",
+          "description": "Después de acostumbrarme a la computadora, comencé a jugar Habbo, un famoso juego en línea de la época, pasando toda la tarde jugando."
+        }
+      },
+      "2012": {
+        "socialMedia": {
+          "heading": "Comenzando con las Redes Sociales",
+          "description": "Creé mi primera cuenta en Orkut y Twitter, me encantaba navegar por las redes sociales."
+        },
+        "firstFlight": {
+          "heading": "Primera vez en avión",
+          "description": "Viajé por primera vez en avión, volé al Estado de Ceará para visitar a mi familia."
+        },
+        "firstPhone": {
+          "heading": "Mi primer celular",
+          "description": "Mi mamá me regaló mi primer celular por mi cumpleaños número 11, y ni siquiera era táctil."
+        }
+      },
+      "2014": {
+        "firstTouchPhone": {
+          "heading": "Mi primer celular táctil",
+          "description": "Para mi cumpleaños, recibí mi primer celular táctil."
+        },
+        "secondCearaTrip": {
+          "heading": "Segunda vez al Ceará",
+          "description": "Viajé por segunda vez para pasar las fiestas de fin de año en el Estado de Ceará."
+        }
+      },
+      "2016": {
+        "middleSchoolGraduation": {
+          "heading": "Me gradué de la escuela secundaria",
+          "description": "Me gradué de la escuela secundaria, emocionado por la nueva etapa de mi vida."
+        }
+      },
+      "2017": {
+        "firstJob": {
+          "heading": "Mi primer trabajo",
+          "description": "Mi primer trabajo en la Municipalidad de Guarujá como aprendiz."
+        },
+        "englishStudies": {
+          "heading": "Estudiando inglés",
+          "description": "Comencé mi curso de inglés en una escuela de idiomas."
+        }
+      },
+      "2018": {
+        "technicalCourse": {
+          "heading": "Curso técnico",
+          "description": "Comencé mi curso técnico en Administración de Empresas en la ETEC de Guarujá."
+        }
+      },
+      "2019": {
+        "endOfEnglishCourse": {
+          "heading": "Fin del curso de inglés",
+          "description": "Terminé el curso de inglés debido a problemas financieros y continué estudiando solo."
+        },
+        "highSchoolGraduation": {
+          "heading": "Me gradué de la escuela secundaria",
+          "description": "Me gradué de la escuela secundaria en diciembre de 2019."
+        },
+        "technicalCourseGraduation": {
+          "heading": "Me gradué del curso técnico",
+          "description": "Completé mi curso técnico en Administración de Empresas."
+        }
+      },
+      "2020": {
+        "businessAdministrationCollege": {
+          "heading": "Facultad de Administración de Empresas",
+          "description": "Comencé a estudiar Administración de Empresas en la universidad."
+        },
+        "covid19": {
+          "heading": "Covid 19",
+          "description": "Debido a la cuarentena del Covid 19, comencé a trabajar desde casa y mi universidad era a distancia."
+        },
+        "firstCode": {
+          "heading": "Primera línea de código",
+          "description": "Escribí mi primera línea de código en Python: print('Hello world')"
+        }
+      },
+      "2021": {
+        "computerEngineeringCollege": {
+          "heading": "Facultad de Ingeniería Informática",
+          "description": "Cambié de curso y universidad a Ingeniería Informática y recibí una beca del 100%."
+        },
+        "frontEndCourseCompletion": {
+          "heading": "Finalicé mi curso de Front End",
+          "description": "Finalicé mi curso de Front End, y me entusiasmé mucho con el desarrollo."
+        }
+      },
+      "2022": {
+        "javaSpringCourse": {
+          "heading": "Back end con Java y Spring",
+          "description": "Completé mi curso de Back end con Java y Spring, convirtiéndome en desarrollador Full Stack."
+        },
+        "firstDevJob": {
+          "heading": "Trabajando como desarrollador",
+          "description": "Fui contratado como desarrollador Full Stack para trabajar con Java, Struts y React."
+        }
+      },
+      "2023": {
+        "changedCourse": {
+          "heading": "Cambié de curso",
+          "description": "Cambié de curso debido a conflictos con el plan de estudios de la universidad anterior."
+        },
+        "movedOut": {
+          "heading": "Me mudé de casa",
+          "description": "Me mudé de la casa de mis padres, con miedo de este desafío pero siempre fue mi objetivo."
+        },
+        "typescriptCourseCompletion": {
+          "heading": "Finalicé mi curso de TypeScript",
+          "description": "Debido a la tipificación, me enamoré de TypeScript y completé este curso."
+        },
+        "seriousIllness": {
+          "heading": "Me enfermé gravemente",
+          "description": "Descubrí una enfermedad autoinmune, fue un período complicado pero lo superé."
+        }
+      },
+      "2024": {
+        "laravelProjects": {
+          "heading": "Participé en proyectos de Laravel",
+          "description": "Trabajé en proyectos de Laravel, tuve el desafío y la oportunidad de trabajar con PHP, Laravel y Tailwind en un sistema de gestión ambiental."
+        },
+        "tailwindProjects": {
+          "heading": "Explorando Tailwind",
+          "description": "Completé mi curso de Tailwind, me encanta desarrollar proyectos con esta biblioteca."
+        },
+        "nextjsProjects": {
+          "heading": "Proyectos Next.js",
+          "description": "Desarrollé proyectos con Next.js, que me gustó trabajar."
+        }
+      }
+    }
+  },
+
+  "Portfolio": {
+    "pre": "Portfolio",
+    "heading": "Mes projets.",
+    "type": {
+      "allProjects": "Todos los proyectos",
+      "typescript": "TypeScript",
+      "javascript": "JavaScript",
+      "css": "CSS",
+      "integrations": "Integraciones",
+      "Java": "Java",
+      "Spring": "Spring",
+      "devtools": "Herramientas de desarrollo",
+      "tailwind": "Tailwind",
+      "next": "Next",
+      "bootstrap": "Bootstrap",
+      "mysql": "MySql",
+      "aws": "AWS",
+      "react": "React"
+    },
+    "Projects": {
+      "HelpDesk": {
+        "name": "HelpDesk",
+        "description": "Esta aplicación es un sistema de tickets completo desarrollado con Spring y Java para ayudar en la administración de tickets."
+      },
+      "GameSecretNumber": {
+        "name": "Juego Número Secreto",
+        "description": "Este es un juego en el que adivinas un número entre 0 y 1000 y tratas de descubrir el número elegido por el sistema, recibiendo solo pistas si es mayor o menor."
+      },
+      "BikeCraft": {
+        "name": "Sitio de Ventas de Bicicletas",
+        "description": "Sitio web para una empresa ficticia de ventas de bicicletas, muy interesante abordando varios conceptos de UI/UX."
+      },
+      "RhSystem": {
+        "name": "Sistema de RRHH",
+        "description": "Sistema desarrollado para el departamento de Recursos Humanos, con funcionalidades para el registro de empleados, departamentos y cargos, todos pudiendo listar los elementos respectivos."
+      },
+      "SitePortfolio": {
+        "name": "Sitio de Portafolio",
+        "description": "Sitio web desarrollado con el objetivo de mostrar mi trabajo y mis proyectos personales."
+      },
+      "CrudJava": {
+        "name": "CRUD en Java",
+        "description": "Proyecto de prueba desarrollado con Java, Struts, JavaScript y SQL y sus relaciones."
+      },
+      "managementSystem": {
+        "name": "Sistema de gestión",
+        "description": "Sistema de gestión de proyectos, completamente alojado en AWS y desarrollado con Spring, SQL, Tailwind, shadcn/ui y React."
+      }
+    },
+
+    "viewRepository": "Ver repositorio",
+    "viewSite": "Ver sitio"
+  },
+
+  "Resume": {
+    "sections": {
+      "all": "todo",
+      "relevant": "relevante",
+      "techDev": "web / desarrollo tecnológico",
+      "adm": "administración",
+      "introduction": "Introducción",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "education": "Educación",
+      "skills": "Habilidades",
+      "certifications": "Certificaciones",
+      "references": "Referencias",
+      "interests": "Intereses"
+    },
+    "cv": {
+      "name": "Edson Araújo",
+      "title": "Desarrollador Full stack",
+      "address": "Santos, São Paulo - Brasil",
+      "email": "edsonaraujo.dev@gmail.com",
+      "website": "",
+      "mobile": "+55 13 98847-3945",
+      "intro": "Soy desarrollador Full Stack con experiencia en diversas tecnologías, incluyendo Java, Spring, React, TypeScript, JavaScript, SQL, AWS y pruebas unitarias con JUnit, Mockito y Jest. A menudo publico contenido en mis redes sociales para democratizar el conocimiento de la programación. También es importante para mí seguir el desarrollo de la tecnología web y el diseño de UX, escuchando podcasts, participando en eventos locales, conferencias y utilizando Twitter e Instagram.",
+      "education_1": {
+        "city": "Guarujá",
+        "country": "Brasil",
+        "institution": "E. E. Prefeito Domingos de Souza",
+        "certificate": "Escuela secundaria",
+        "level": "Educación escolar"
+      },
+      "education_2": {
+        "city": "Guarujá",
+        "country": "Brasil",
+        "institution": "Etec Alberto Santos Dumont",
+        "certificate": "Administración de Empresas",
+        "level": "Educación superior"
+      },
+      "education_3": {
+        "city": "Santos",
+        "country": "Brasil",
+        "institution": "Faculdade Descomplica",
+        "certificate": "Licenciatura en Ingeniería Informática",
+        "level": "Educación superior"
+      },
+      "experience_1": {
+        "city": "Guarujá",
+        "country": "Brasil",
+        "company": "Procuraduría General del Municipio de Guarujá",
+        "title": "Asistente Administrativo - Jurídico",
+        "responsibility_1": "Trabajé en el desarrollo de hojas de cálculo de Excel para la administración de los procesos del sector",
+        "responsibility_2": "Distribuía y asignaba procesos a los abogados disponibles en el sector",
+        "responsibility_3": "Brindé servicio público dando orientación sobre el sistema judicial de la región",
+        "responsibility_4": "Brindé servicio telefónico dando orientación sobre el sistema judicial de la región"
+      },
+      "experience_2": {
+        "city": "Santos",
+        "country": "Brasil",
+        "company": "Consultoría, Planificación y Estudios Ambientales",
+        "title": "Asistente Administrativo - Panel de control",
+        "responsibility_1": "Trabajé principalmente en la creación de paneles de control en Excel y el desarrollo de VBA.",
+        "responsibility_2": "Ocupé el cargo de Asistente Administrativo, apoyando a los equipos de recolección de residuos ambientales.",
+        "responsibility_3": "Creé flujos de trabajo con soporte de VBA Excel para equipos de gestión.",
+        "responsibility_4": "Soporte técnico de equipos y su gestión."
+      },
+      "experience_3": {
+        "city": "Santos",
+        "country": "Brasil",
+        "company": "AGE Technology",
+        "title": "Desarrollador Full stack",
+        "responsibility_1": "Amplié mi papel con la implementación de React en el sistema, lo que me dio la oportunidad de trabajar con este marco.",
+        "responsibility_2": "Me convertí en el representante de Front-end de mi equipo, compartiendo mi conocimiento y las innovaciones de mis superiores en esta área con el equipo.",
+        "responsibility_3": "Después de unos meses, tuve la oportunidad de trabajar como Junior en el mismo puesto de Desarrollador Full stack, ampliando mi papel con AWS, servicios web e integración de API.",
+        "responsibility_4": "Comencé como Trainee en el puesto de Desarrollador Full stack, trabajando en el desarrollo de nuevas funcionalidades y brindando soporte en el sistema de la empresa. Las tecnologías con las que trabajo son Git, Java, JavaScript, Sass, jQuery, Struts, SQL y Materialize. También utilizamos Scrum para la gestión de equipos."
+      },
+      "capabilities_languages_1": "Portugués - nativo",
+      "capabilities_languages_2": "Inglés - Intermedio",
+      "capabilities_languages_3": "Francés - básico",
+      "references_1": {
+        "author": "José Alberto dos Santos Silva",
+        "title": "Coordinador",
+        "company": "Procuraduría General del Municipio de Guarujá",
+        "reference": "Es con gran satisfacción que escribo esta carta para recomendar al profesional Edson Araújo, quien realizó su socioaprendizaje ofrecido por CAMP Guarujá en el sector de Protocolo de la Procuraduría General del Municipio de febrero de 2018 a mayo de 2019. En este sentido, destaco su excelente desarrollo en el sector, siempre contribuyendo con empatía, flexibilidad, iniciativa y puntualidad. Además, entre sus obligaciones, informo su desempeño siempre cumpliendo con los plazos, aptitud y agilidad. Por lo tanto, recomiendo al profesional mencionado por su papel en el sector de contratación y notifico la notable contribución de sus habilidades profesionales, que son indudablemente relevantes para el desarrollo de la empresa."
+      },
+      "references_2": {
+        "author": "Raphael de Almeida Tripodi",
+        "title": "Procurador Municipal",
+        "company": "Procuraduría General del Municipio de Guarujá",
+        "reference": "A través de esta carta, declaro, a todos los efectos, que Edson Araújo realizó una pasantía en esta agencia del 13/05/2019 al presente. Durante este tiempo, desempeñó sus actividades en la unidad de apoyo administrativo a los procuradores municipales actuantes en el área judicial de la procuraduría de este Municipio. En el desempeño de sus actividades, siempre fue muy atento, cordial y ágil en el servicio, revelando siempre entusiasmo y facilidad para aprender los procedimientos internos de nuestra organización. Durante este tiempo, demostró ser una persona honesta con gran potencial de crecimiento."
+      },
+
+      "language": "Idiomas",
+      "programmingLanguage": "Lenguajes de Programación",
+      "Frameworks": "Bibliotecas & Frameworks",
+      "ServiceProviders": "Proveedores de Servicios",
+      "Platforms": "Plataformas",
+      "Tools": "Herramientas"
+    },
+
+    "FilterView": "Vista de Filtro:"
+  },
+
+  "Links": {
+    "bio": "Desarrollo aplicaciones interactivas y de alto rendimiento.",
+    "contateMe": "Contáctame",
+    "tituloSpotfy": "",
+    "GridItems": {
+      "gridItem_1": {
+        "description": "Mi LinkedIn para obtener más información sobre mi carrera y vida profesional.",
+        "title": "LinkedIn",
+        "buttonTitle": "Seguir"
+      },
+      "gridItem_2": {
+        "description": "",
+        "title": "Instagram",
+        "buttonTitle": "Seguir"
+      },
+      "gridItem_3": {
+        "description": "",
+        "title": "GitHub",
+        "buttonTitle": "Seguir"
+      },
+      "gridItem_4": {
+        "description": "Desarrollador Full-stack / Ingeniero Informático, perfil en inglés y soy brasileño.",
+        "title": "Twitter",
+        "buttonTitle": "Seguir"
+      },
+      "gridItem_5": {
+        "title": "Código Limpio: Habilidades Prácticas del Desarrollo Ágil de Software"
+      },
+      "gridItem_6": {
+        "title": "Head First Java"
+      },
+      "gridItem_7": {
+        "title": "Sitio Web de Edson Araújo"
+      },
+      "gridItem_8": {
+        "title": "Paquete Full-Stack",
+        "description": "Aprende a ser más que un programador completo.",
+        "buttonTitle": "Inscribirse"
+      },
+      "gridItem_9": {
+        "title": "Julho",
+        "description": ""
+      }
+    }
   }
-  
+}

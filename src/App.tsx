@@ -15,18 +15,25 @@ const LocaleWrapper: React.FC = () => {
 
   return (
     <>
-      <Header />  {/* ✅ Agora o Header está DENTRO do Router e dentro das rotas */}
+      <Header />
       <Outlet />
     </>
   );
 };
 
 const detectBrowserLanguage = (): string => {
-  const browserLanguage = navigator.language || navigator.languages[0];
+  const browserLanguage = localStorage.getItem('locale') || navigator.language || navigator.languages[0];
   const supportedLanguages = ['pt', 'en', 'es', 'fr'];
   const detectedLanguage = supportedLanguages.find((lang) => browserLanguage.startsWith(lang));
   return detectedLanguage || 'en';
 };
+
+const NotFoundRedirect: React.FC = () => {
+  const { locale } = useParams<{ locale: string }>();
+  const lang = locale || detectBrowserLanguage();
+  return <Navigate to={`/${lang}/home`} replace />;
+};
+
 
 const App: React.FC = () => {
   const browserLanguage = detectBrowserLanguage();
@@ -34,13 +41,11 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        {/* Redireciona "/" para o idioma detectado */}
         <Route path="/" element={<Navigate to={`/${browserLanguage}/home`} replace />} />
-
-        {/* Rotas com locale */}
+        <Route path="*" element={<NotFoundRedirect />} />
         <Route path="/:locale/*" element={<LocaleWrapper />}>
           <Route path="home" element={<Home />} />
-          {/* Outras rotas podem ir aqui */}
+          <Route path="*" element={<NotFoundRedirect />} />
         </Route>
       </Routes>
     </Router>

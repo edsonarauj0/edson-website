@@ -13,7 +13,7 @@ const removeLocalePrefix = (path: string, locale: string) => {
 function DesktopNav() {
     const { locale } = useParams<{ locale: string }>();
     const location = useLocation();
-    const { t } = useTranslation('Header');
+    const { t } = useTranslation();
 
     const pathname = location.pathname;
 
@@ -43,7 +43,7 @@ function DesktopNav() {
                                 )}
                             >
                                 <span className="text-sm font-medium">
-                                    {t(link.title)}
+                                    {t('Header.' + link.title)}
                                 </span>
                             </Link>
                         </div>
