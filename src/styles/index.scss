@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './typography.scss';
+
+.color-gray--slate {
+    --color-gray-100: 241 245 249;
+    --color-gray-200: 226 232 240;
+    --color-gray-300: 203 213 225;
+    --color-gray-400: 148 163 184;
+    --color-gray-50: 248 250 252;
+    --color-gray-500: 100 116 139;
+    --color-gray-600: 71 85 105;
+    --color-gray-700: 51 65 85;
+    --color-gray-800: 30 41 59;
+    --color-gray-900: 15 23 42;
+}
+
+.color-gray--coolgray {
+    --color-gray-100: 243 244 246;
+    --color-gray-200: 229 231 235;
+    --color-gray-300: 209 213 219;
+    --color-gray-400: 156 163 175;
+    --color-gray-50: 249 250 251;
+    --color-gray-500: 107 114 128;
+    --color-gray-600: 75 85 99;
+    --color-gray-700: 55 65 81;
+    --color-gray-800: 31 41 55;
+    --color-gray-900: 17 24 39;
+}
+
+.color-gray--bluegray {
+    --color-gray-100: 241 245 249;
+    --color-gray-200: 226 232 240;
+    --color-gray-300: 203 213 225;
+    --color-gray-400: 148 163 184;
+    --color-gray-50: 248 250 252;
+    --color-gray-500: 100 116 139;
+    --color-gray-600: 71 85 105;
+    --color-gray-700: 51 65 85;
+    --color-gray-800: 30 41 59;
+    --color-gray-900: 15 23 42;
+}
+
+.color-gray--gray {
+    --color-gray-100: 243 244 246;
+    --color-gray-200: 229 231 235;
+    --color-gray-300: 209 213 219;
+    --color-gray-400: 156 163 175;
+    --color-gray-50: 249 250 251;
+    --color-gray-500: 107 114 128;
+    --color-gray-600: 75 85 99;
+    --color-gray-700: 55 65 81;
+    --color-gray-800: 31 41 55;
+    --color-gray-900: 17 24 39;
+}
+
+.color-gray--zinc {
+    --color-gray-100: 244 244 245;
+    --color-gray-200: 228 228 231;
+    --color-gray-300: 212 212 216;
+    --color-gray-400: 161 161 170;
+    --color-gray-50: 250 250 250;
+    --color-gray-500: 113 113 122;
+    --color-gray-600: 82 82 91;
+    --color-gray-700: 63 63 70;
+    --color-gray-800: 39 39 42;
+    --color-gray-900: 24 24 27;
+}
+
+.color-gray--neutral {
+    --color-gray-100: 245 245 245;
+    --color-gray-200: 229 229 229;
+    --color-gray-300: 212 212 212;
+    --color-gray-400: 163 163 163;
+    --color-gray-50: 250 250 250;
+    --color-gray-500: 115 115 115;
+    --color-gray-600: 82 82 82;
+    --color-gray-700: 64 64 64;
+    --color-gray-800: 38 38 38;
+    --color-gray-900: 23 23 23;
+}
+
+.color-gray--stone {
+    --color-gray-100: 245 245 244;
+    --color-gray-200: 231 229 228;
+    --color-gray-300: 214 211 209;
+    --color-gray-400: 168 162 158;
+    --color-gray-50: 250 250 249;
+    --color-gray-500: 120 113 108;
+    --color-gray-600: 87 83 78;
+    --color-gray-700: 68 64 60;
+    --color-gray-800: 41 37 36;
+    --color-gray-900: 28 25 23;
+}
+
+@layer base {
+
+    :root {
+        --color-bg: 255 255 255;
+        --color-bg-dark: 14 19 31;
+        --color-bg-secondary: 248 250 252;
+        --color-bg-secondary-dark: 248 250 252;
+        --color-card: 241 245 249;
+        --color-card-dark: 25 34 46;
+        --color-accent: 14 165 233;
+        --color-accent-contrast: 14 165 233;
+        --color-accent-secondary: 236 72 153;
+        --color-accent-secondary-contrast: 236 72 153;
+        --color-accent-dark: 56 189 248;
+        --color-accent-contrast-dark: 56 189 248;
+        --color-accent-secondary-dark: 27 33 46;
+        --color-accent-secondary-contrast-dark: 27 33 46;
+        --color-success: 34 197 94;
+        --color-info: 56 189 248;
+        --color-warning: 245 158 11;
+        --color-danger: 252 0 0;
+    }
+
+    .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 217.2 91.2% 59.8%;
+        --primary-foreground: 222.2 47.4% 11.2%;
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 224.3 76.3% 48%;
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+    }
+}

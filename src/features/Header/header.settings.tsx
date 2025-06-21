@@ -3,9 +3,9 @@ import { FC } from 'react';
 import DarkmodeIcon from '../../components/darkmode-icon';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import SelectLanguage from '../../components/selectLanguage';
 import { useDarkMode } from '../../hooks/useDarkMode';
 import { ArrowDown } from 'lucide-react';
+import SelectLanguage from '../../components/selectLanguage';
 
 type ProfileNavProps = {
   showNav: boolean;

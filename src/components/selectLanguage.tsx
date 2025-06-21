@@ -82,4 +82,4 @@ const SelectLanguage: FC = () => {
   );
 };
 
-export default SelectLanguage;
+export default SelectLanguage
