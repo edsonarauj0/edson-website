@@ -1,7 +1,7 @@
 export const HEADER = {
   nav: [
     {
-      href: "",
+      href: "/home",
       title: "Home",
       alt: "AltHome",
       desktop: true,
