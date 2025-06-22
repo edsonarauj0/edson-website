@@ -13,7 +13,7 @@ function hexToRgb(hex) {
 module.exports = {
     content: [
         "./src/**/*.{js,jsx,ts,tsx,css,scss}",
-        "./public/index.html",
+        "./public/**/*.{js,jsx,ts,tsx,css,scss,html}",
     ],
     darkMode: "class",
     mode: "jit",
