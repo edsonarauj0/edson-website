@@ -14,11 +14,6 @@ const SelectLanguage: FC = () => {
   const [page, setPage] = useState<string>('home');
 
   useEffect(() => {
-    debugger
-
-  }, []);
-
-  useEffect(() => {
     const savedLocale = localStorage.getItem('locale');
     const pathLocale = window.location.pathname.split('/')[2];
     setPage(pathLocale);

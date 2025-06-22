@@ -1,9 +1,9 @@
 import { Config } from 'tailwindcss';
-import plugin from 'tailwindcss/plugin';
-import colors from 'tailwindcss/colors';
-import defaultTheme from 'tailwindcss/defaultTheme';
-import flattenColorPalette from 'tailwindcss/lib/util/flattenColorPalette';
-import svgToDataUri from 'mini-svg-data-uri';
+const plugin = require('tailwindcss/plugin');
+const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme');
+const flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette');
+const svgToDataUri = require('mini-svg-data-uri');
 
 function hexToRgb(hex) {
     const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -11,9 +11,9 @@ function hexToRgb(hex) {
     return `${parseInt(result[1], 16)} ${parseInt(result[2], 16)} ${parseInt(result[3], 16)}`;
 }
 module.exports = {
-    content: ["./src/**/*.{js,jsx,ts,tsx,.css}",
+    content: [
+        "./src/**/*.{js,jsx,ts,tsx,css,scss}",
         "./public/index.html",
-        './public/**/*.{js,jsx,ts,tsx,.css}',
     ],
     darkMode: "class",
     mode: "jit",

@@ -3,9 +3,9 @@ import { FC } from 'react';
 import DarkmodeIcon from '../../components/darkmode-icon';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { useDarkMode } from '../../hooks/useDarkMode';
 import { ArrowDown } from 'lucide-react';
 import SelectLanguage from '../../components/selectLanguage';
+import { useDarkMode } from '../../hooks/useDarkMode';
 
 type ProfileNavProps = {
   showNav: boolean;
@@ -34,7 +34,7 @@ export const ProfileNav: FC<ProfileNavProps> = ({ showNav }) => {
         onClick={toggleDarkMode}
       >
         <span className="sr-only">Switch Color Theme</span>
-        <DarkmodeIcon />
+        <DarkmodeIcon isDark={isDark} />
       </button>
 
       <a
