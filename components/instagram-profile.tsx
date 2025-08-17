@@ -44,7 +44,7 @@ export const InstagramProfile: FC<TwitterProfileProps> = ({
         </div>
         <Link
           target="_blank"
-          href="https://www.instagram.com/eu_edsonaraujo/"
+          href="https://www.instagram.com/edsonaraujo013/"
           className="butter-border my-auto ml-auto flex items-center justify-center rounded-full  bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 px-4 py-1.5 text-xs text-white transition-colors hfa:bg-sky-600/80 d:bg-sky-600/90 d:hfa:bg-sky-500/80"
         >
           {t("Follow")}

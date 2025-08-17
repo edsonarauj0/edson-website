@@ -86,7 +86,7 @@ export const ResumeFooter = () => {
               <SiGithub className="h-4 w-4" />
             </Link>
             <Link
-              href="https://www.instagram.com/eu_edsonaraujo"
+              href="https://www.x.com/eu_edsonaraujo"
               target="_blank"
               data-tip="Twitter"
               className="rounded p-1 text-gray-400 transition-all duration-75 hf:bg-gray-100 hf:text-gray-700 d:text-gray-300 d:hf:bg-gray-800/80 d:hf:text-gray-200"

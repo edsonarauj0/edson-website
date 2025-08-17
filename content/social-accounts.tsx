@@ -1,6 +1,4 @@
-import { FaInstagram } from "react-icons/fa";
 import { SiGithub, SiInstagram, SiLinkedin, SiTwitter } from "react-icons/si";
-import { TbBrandInstagram } from "react-icons/tb";
 
 export const SOCIAL_ACCOUNTS = {
   github: {
@@ -21,7 +19,7 @@ export const SOCIAL_ACCOUNTS = {
   },
   instagram: {
     name: "Instagram",
-    href: "https://www.instagram.com/eu_edsonaraujo/",
+    href: "https://www.instagram.com/edsonaraujo013/",
     Icon: ({ className = "" }) => <SiInstagram className={className} />,
   }
 };
