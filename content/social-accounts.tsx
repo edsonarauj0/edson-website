@@ -3,7 +3,7 @@ import { SiGithub, SiInstagram, SiLinkedin, SiTwitter } from "react-icons/si";
 export const SOCIAL_ACCOUNTS = {
   github: {
     name: "GitHub",
-    href: "https://github.com/edson-araujo",
+    href: "https://github.com/edsonarauj0",
     Icon: ({ className = "" }) => <SiGithub className={className} />,
   },
 

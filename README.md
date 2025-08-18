@@ -51,4 +51,4 @@ Email: edsonaraujo.dev@gmail.com
 
 LinkedIn: [LinkedIn profile](https://www.linkedin.com/in/edson-alves-araujo/)
 
-GitHub: [GitHub profile](https://github.com/edson-araujo)
+GitHub: [GitHub profile](https://github.com/edsonarauj0)
