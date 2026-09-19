@@ -5,6 +5,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   experimental: {
     appDir: true,
   },
@@ -18,6 +19,7 @@ const nextConfig = {
     buildActivity: false,
   },
   images: {
+    unoptimized: true,
     dangerouslyAllowSVG: true,
     deviceSizes: [320, 460, 540, 640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     domains: [
